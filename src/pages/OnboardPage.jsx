@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import styles from "../styles/onboard.module.css";
 
 const OnboardPage = () => {
-  const [selectedDiv, setSelectedDiv] = useState(null); // useState for maintain checkbox
+  const [selectedDiv, setSelectedDiv] = useState(null);
+
+  // click function , when clicked class will changed
 
   const handleDivClick = (index) => {
     setSelectedDiv(index);
@@ -47,7 +49,7 @@ const OnboardPage = () => {
                 <option value="">Select</option>
                 <option value="alpha">Alpha Inc</option>
                 <option value="tata">Tata</option>
-                <option value="google">GOogle</option>
+                <option value="google">Google</option>
               </select>
             </div>
             <div className={styles.inputDiv}>

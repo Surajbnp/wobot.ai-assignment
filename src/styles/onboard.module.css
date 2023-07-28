@@ -133,11 +133,61 @@ label {
 }
 
 .selected {
-    color: white;
-    background-color: #3766e8;
+  color: white;
+  background-color: #3766e8;
 }
 
 .unselected {
-    background-color: rgb(217, 215, 215);
-    color: rgb(55, 54, 54);
+  background-color: rgb(217, 215, 215);
+  color: rgb(55, 54, 54);
+}
+
+/* CSS styles for medium-sized screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .form {
+    width: 70%;
   }
+}
+
+/* CSS styles for mobile devices */
+
+@media (max-width: 767px) {
+  .logo img {
+    width: 80px;
+    height: 20px;
+    margin: auto;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .boldTxt {
+    width: 60%;
+    font-size: 18px;
+  }
+
+  .selectBox {
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .greyTxt {
+    font-size: 10px;
+  }
+
+  .submitBtn {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .termTxt {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
