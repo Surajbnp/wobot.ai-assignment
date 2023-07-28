@@ -48,7 +48,7 @@
 }
 
 .greyTxt {
-  color: rgb(126, 126, 126);
+  color: black;
   font-weight: 600;
   font-size: 12px;
   width: 40%;
@@ -89,7 +89,7 @@
 label {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: rgb(125, 124, 124);
+  color: black;
   margin-bottom: 5px;
   font-size: 14px;
 }
@@ -154,8 +154,8 @@ label {
 
 @media (max-width: 767px) {
   .logo img {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 30px;
     margin: auto;
   }
 
@@ -172,6 +172,10 @@ label {
     font-size: 18px;
   }
 
+  .inputDiv{
+    width: 90%;
+  }
+
   .selectBox {
     font-size: 10px;
     padding: 0px;
@@ -179,11 +183,13 @@ label {
 
   .greyTxt {
     font-size: 10px;
+    width: 100%;
   }
 
   .submitBtn {
     font-size: 12px;
     margin-top: 10px;
+    width: 90%;
   }
 
   .termTxt {
